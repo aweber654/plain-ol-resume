@@ -5,19 +5,71 @@
         <title>Your document title</title>
         <link rel="stylesheet" href="css/styles.css">
         <script src="js/scripts.js"></script>
+        <style>
+		.section-header {
+ 			background-color: black;
+  			color: white;
+  			border: 2px solid black;
+		}
+		</style>
     </head>
     <body>
-        <h1><center>Andrew Weber</h1>
-        <h4><center>515 Houston St Apt B<br>Blacksburg, VA 24060<br>(434)987-5964 | atweber@vt.edu</h4>
-        <h3><u>Skills</u></h3>
-        <h5>Software:</h5>
-        <ul>
-        	<li>Inventor</li>
-            <li>GitBash</li>
-            <li>SQL</li>
-            <li>Wireshark</li>
-            <li>Photoshop</li>
-         </ul>
+    	<div id="header-section">
+        	<header>
+            	<h1 id="title"><center>Andrew Weber</h1>
+                <h4><center>515 Houston St Apt B<br>Blacksburg, VA 24060<br>(434)987-5964 | atweber@vt.edu<br><address>
+                	<a href="https://www.linkedin.com/in/andrew-weber-/">LinkedIn</a>
+                </address></h4>
+                
+                <nav>
+                	<a href="#education">Education</a>
+                    <a href="#activities">Activities</a>
+                    <a href="#job-experience">Experience</a>
+                    <a href="#skills">Skills</a>
+                </nav>
+            </header>
+        </div>
+        
+        <section id="education" class="education">
+        	<h3 class="section-header">Education</h3>
+            <h5 class="subsec-header">Virginia Tech, College of Engineering</h5>
+            	<p id="major-description">Bachelor of Science<br>Major: Computer Science<br>GPA: 3.62</p>
+        </section>
+        <section id="activities" class="activity">
+        	<h3 class="section-header">Activities</h3>
+            <h5 class="subsec-header">Virginia Tech Men's Soccer</h5>
+            	<p id="msoc-desciption">Practice up to 20 hours a week and travel with team while maintaining full course load<br>Athletic Director’s Honor Roll: Spring 2019, Fall 2019, Spring 2020<br>Atlantic Coast Conference Honor Roll: Spring 2020</p>
+            <h5 class="subsec-header">Pi Kappa Alpha, Epsilon Chapter</h5>
+            	<p id="pike-description">Newly initiated brother; planning to run for a chair position in Fall 2020<br>Participated in fundraising and philanthropic events</p>
+        </section>
+        <section id="job-experience" class="experience">
+        	<h3 class="section-header">Experience</h3>
+            <h5 class="subsec-header">Virginia Tech Athletics, Hokie L.E.A.D. Intern, Information Systems and Still Photography (Remote)</h5>
+            	<p id="intern-description">Responsible for historical still photo edit and archive project<br>Assist department head in ad-hoc projects as needed
+<br>Participated in ACC Professional Development Program</p>
+            <h5 class="subsec-header">Glenmore Country Club, Cashier</h5>
+            	<p id="cashier-description">Provide quality customer service to members<br>Manage the open and close processes for the snack bar area<br>Assist with inventory management and display settings</p>
+        </section>
+        
+        <section id="skills" class="skill">
+        	<h3 class="section-header">Skills</h3>
+        	<h5 class="subsec-header">Software:</h5>
+        		<ul>
+        			<li>Inventor</li>
+            		<li>GitBash</li>
+            		<li>SQL</li>
+            		<li>Wireshark</li>
+            		<li>Photoshop</li>
+        		</ul>
+        	<h5 class="subsec-header">Languages:</h5>
+            	<ul>
+                	<li>Java</li>
+            		<li>MATLAB</li>
+            		<li>Python</li>
+            		<li>C</li>
+            		<li>Photoshop</li> 
+        </section>
+       
     </body>
 </html>
 
